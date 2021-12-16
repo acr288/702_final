@@ -1,2 +1,2 @@
-# 702_final
-Final project for my digital cartography class
+# NMP701_Final
+This project is for NMP 701 final

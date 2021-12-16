@@ -1,0 +1,90 @@
+// MAP URL: https://www.digitalcommonwealth.org/search/commonwealth:3f462s82t
+
+
+const imgJson = {
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/q524n1590/manifest",
+    "@type": "sc:Manifest",
+    "label": "Eight views of the world",
+    "thumbnail": {
+        "@id": "https://ark.digitalcommonwealth.org/ark:/50959/q524n1590/thumbnail",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:q524n160r",
+            "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+    },
+    "viewingHint": "individuals",
+    "metadata": [{
+        "label": "Title",
+        "value": "Eight views of the world"
+    }, {
+        "label": "Date",
+        "value": "1944"
+    }, {
+        "label": "Creator",
+        "value": "Harrison, Richard Edes"
+    }, {
+        "label": "Publisher",
+        "value": "New York : A.A. Knopf"
+    }, {
+        "label": "Type of Resource",
+        "value": "cartographic"
+    }, {
+        "label": "Format",
+        "value": "Maps"
+    }, {
+        "label": "Description",
+        "value": "Ever since the European Age of Discoveries few have questioned that the Earth is round. Nevertheless, most map makers, as they transferred geographical data from a sphere to a flat piece of paper, have not emphasized the global aspects of the planet. Whether the map is projected as a rectangle, an oval, a single circle, or two circles, the implication is that the world is not a continuous surface, rather there is a top and a bottom as well as edges or breaks that interrupt the flow of people and goods. A hallmark of mid-20th century cartographer Richard Harrison is specifically his use of a global perspective. He generally drew world maps as if the Earth was viewed from a satellite allowing him to portray it using a three-dimensional perspective. And rarely did he orient his maps with north at the top. By using such unconventional presentations, he forced his World War II American audiences to realize the implications of a true global world view. \"Eight Views of the World\" provides a sampling of the unique perspectives and orientations that Harrison used. This particular presentation was included in a collection of maps that were originally published in Fortune magazine. This cartographic anthology was appropriately entitled Look at the World, imploring the American public to take a look at the world that was not centered on America. While the first of the eight views focuses on the United States and its isolation, the others emphasize Iceland, Argentina, Australia, Europe, Africa, Alaska, and Asia. By rotating and inverting the globe, often with the South Pole at the top, Harrison prods his readers to think about the peculiar roles various places play within the global theater."
+    }, {
+        "label": "Language",
+        "value": "English"
+    }, {
+        "label": "Subjects",
+        "value": "World maps"
+    }, {
+        "label": "Location",
+        "value": "Boston Public Library"
+    }, {
+        "label": "Collection (local)",
+        "value": "Norman B. Leventhal Map Center Collection"
+    }, {
+        "label": "Identifier",
+        "value": ["https://ark.digitalcommonwealth.org/ark:/50959/q524n1590", "05_01_000233", "G1019 .H37 1944", "39999058998509"]
+    }, {
+        "label": "Terms of Use",
+        "value": ["Copyright © A.A. Knopf.", "All rights reserved."]
+    }],
+    "description": "Ever since the European Age of Discoveries few have questioned that the Earth is round. Nevertheless, most map makers, as they transferred geographical data from a sphere to a flat piece of paper, have not emphasized the global aspects of the planet. Whether the map is projected as a rectangle, an oval, a single circle, or two circles, the implication is that the world is not a continuous surface, rather there is a top and a bottom as well as edges or breaks that interrupt the flow of people and goods. A hallmark of mid-20th century cartographer Richard Harrison is specifically his use of a global perspective. He generally drew world maps as if the Earth was viewed from a satellite allowing him to portray it using a three-dimensional perspective. And rarely did he orient his maps with north at the top. By using such unconventional presentations, he forced his World War II American audiences to realize the implications of a true global world view. \"Eight Views of the World\" provides a sampling of the unique perspectives and orientations that Harrison used. This particular presentation was included in a collection of maps that were originally published in Fortune magazine. This cartographic anthology was appropriately entitled Look at the World, imploring the American public to take a look at the world that was not centered on America. While the first of the eight views focuses on the United States and its isolation, the others emphasize Iceland, Argentina, Australia, Europe, Africa, Alaska, and Asia. By rotating and inverting the globe, often with the South Pole at the top, Harrison prods his readers to think about the peculiar roles various places play within the global theater.",
+    "attribution": "Copyright © A.A. Knopf. All rights reserved. ",
+    "seeAlso": "https://ark.digitalcommonwealth.org/ark:/50959/q524n1590",
+    "sequences": [{
+        "@type": "sc:Sequence",
+        "canvases": [{
+            "@id": "https://ark.digitalcommonwealth.org/ark:/50959/q524n1590/canvas/q524n160r",
+            "@type": "sc:Canvas",
+            "label": "image 1",
+            "thumbnail": "https://ark.digitalcommonwealth.org/ark:/50959/q524n160r/thumbnail",
+            "width": 10880,
+            "height": 6880,
+            "images": [{
+                "@id": "https://ark.digitalcommonwealth.org/ark:/50959/q524n1590/annotation/q524n160r",
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "resource": {
+                    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/q524n160r/large_image",
+                    "@type": "dcterms:Image",
+                    "format": "image/jpeg",
+                    "width": 10880,
+                    "height": 6880,
+                    "service": {
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:q524n160r",
+                        "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                },
+                "on": "https://ark.digitalcommonwealth.org/ark:/50959/q524n1590/canvas/q524n160r"
+            }]
+        }]
+    }]
+}
